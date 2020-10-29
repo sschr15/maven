@@ -18,6 +18,8 @@ for root, folders, files in os.walk("."):
 
     if root.startswith("./.git"):
         continue
+    if (root == "."):
+        files = []
 
     json_struct[root] = folders + files
 
