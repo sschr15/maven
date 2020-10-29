@@ -20,6 +20,7 @@ for root, folders, files in os.walk("."):
         continue
     if (root == "."):
         files = []
+        root = "./"
 
     json_struct[root] = folders + files
 
