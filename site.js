@@ -12,10 +12,12 @@ req.send(null);
  */
 const json = JSON.parse(req.responseText);
 
+const dir = window.location.pathname.replace(/\//g, " ").trim().replace(/ /g, "/");
+
 /**
  * @type {Array<String>}
  */
-const filesAndFolders = json["./" + window.location.pathname.replace(/\//g, " ").trim().replace(/ /g, "/")];
+const filesAndFolders = json["./" + dir];
 
 for (let i = 0; i < filesAndFolders.length; i++) {
     /**
