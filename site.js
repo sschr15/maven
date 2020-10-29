@@ -15,7 +15,7 @@ const json = JSON.parse(req.responseText);
 /**
  * @type {Array<String>}
  */
-const filesAndFolders = json["./" + window.location.pathname.replace("/", " ").trim().replace(" ", "/")];
+const filesAndFolders = json["./" + window.location.pathname.replace(/\//g, " ").trim().replace(" ", "/")];
 
 for (let i = 0; i < filesAndFolders.length; i++) {
     /**
