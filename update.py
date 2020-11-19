@@ -27,6 +27,7 @@ for root, folders, files in os.walk("."):
 with open("tree.json", "w") as json_file:
     json.dump(json_struct, json_file)
 
+run("git pull")
 run("git add .")
 run('git commit -m "Auto-commited by script"')
 run("git push")
