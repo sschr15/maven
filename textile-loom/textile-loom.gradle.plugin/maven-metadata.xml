@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>textile-loom</groupId>
+  <artifactId>textile-loom.gradle.plugin</artifactId>
+  <versioning>
+    <versions>
+      <version>0.5-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20201125234501</lastUpdated>
+  </versioning>
+</metadata>

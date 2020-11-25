@@ -3,11 +3,12 @@
   <groupId>fabric-loom</groupId>
   <artifactId>fabric-loom.gradle.plugin</artifactId>
   <versioning>
-    <release>0.5.local</release>
+    <release>0.5.textile</release>
     <versions>
       <version>0.5.local</version>
       <version>0.5-SNAPSHOT</version>
+      <version>0.5.textile</version>
     </versions>
-    <lastUpdated>20201125222234</lastUpdated>
+    <lastUpdated>20201125234434</lastUpdated>
   </versioning>
 </metadata>
