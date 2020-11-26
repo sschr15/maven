@@ -3,11 +3,13 @@
   <groupId>net.textile</groupId>
   <artifactId>textile-loom</artifactId>
   <versioning>
-    <release>0.5.textile</release>
+    <release>0.5.1+textile</release>
     <versions>
       <version>0.5.textile</version>
       <version>0.5-SNAPSHOT</version>
+      <version>0.5.1+textile</version>
+      <version>0.5.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20201126024739</lastUpdated>
+    <lastUpdated>20201126144627</lastUpdated>
   </versioning>
 </metadata>
