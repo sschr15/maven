@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>textile-loom</groupId>
-  <artifactId>textile-loom.gradle.plugin</artifactId>
+  <groupId>net.textile</groupId>
+  <artifactId>textile-loom</artifactId>
   <versioning>
     <release>0.5.textile</release>
     <versions>
-      <version>0.5-SNAPSHOT</version>
       <version>0.5.textile</version>
+      <version>0.5-SNAPSHOT</version>
     </versions>
     <lastUpdated>20201126015304</lastUpdated>
   </versioning>
