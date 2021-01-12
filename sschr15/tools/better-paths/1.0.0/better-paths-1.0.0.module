@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "sschr15.tools",
+    "module": "better-paths",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "w6xgbxa7hnhnhn3qq27tmktn3m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "better-paths-1.0.0.jar",
+          "url": "better-paths-1.0.0.jar",
+          "size": 10307,
+          "sha512": "8fbf3fe359224b45480cdde2cb43bac24ea10fb65c385572bbfd27dcc9fa7613bab9b3389deb28d585cd36e760ecad0708a4c368c2a8f2b2f387774e3dd227d0",
+          "sha256": "dce4688bd905a15b04a6d7d2fe473ef8f3d312ac1df6c798f8b361fea1d92349",
+          "sha1": "cce37afa62cd004bbd1958ba50b82490faffbe24",
+          "md5": "12e1be6621bd639b1545ca94a598ebda"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "better-paths-1.0.0.jar",
+          "url": "better-paths-1.0.0.jar",
+          "size": 10307,
+          "sha512": "8fbf3fe359224b45480cdde2cb43bac24ea10fb65c385572bbfd27dcc9fa7613bab9b3389deb28d585cd36e760ecad0708a4c368c2a8f2b2f387774e3dd227d0",
+          "sha256": "dce4688bd905a15b04a6d7d2fe473ef8f3d312ac1df6c798f8b361fea1d92349",
+          "sha1": "cce37afa62cd004bbd1958ba50b82490faffbe24",
+          "md5": "12e1be6621bd639b1545ca94a598ebda"
+        }
+      ]
+    }
+  ]
+}
