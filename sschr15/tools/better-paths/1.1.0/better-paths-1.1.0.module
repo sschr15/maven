@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "sschr15.tools",
+    "module": "better-paths",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "h77ggmddijc2vgtwjlfhdarr7u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "better-paths-1.1.0.jar",
+          "url": "better-paths-1.1.0.jar",
+          "size": 12785,
+          "sha512": "cee37431fcdf5f8993c1f84e41207b119d76a300cd76addc4a595c1d1a2fe8a4bcc1d3b43deaadda7c9876399b2dd8a83ed7d30bf81a26728ffbe50641c5d021",
+          "sha256": "c6c510c704bdffb79f87c748272fce08aea7559f29883528a66bc32d97585f95",
+          "sha1": "c4900dbe5dd7b80b80463d712e04a06603383306",
+          "md5": "d6ea1aba3e8928434f008d88c3d0c8b2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "better-paths-1.1.0.jar",
+          "url": "better-paths-1.1.0.jar",
+          "size": 12785,
+          "sha512": "cee37431fcdf5f8993c1f84e41207b119d76a300cd76addc4a595c1d1a2fe8a4bcc1d3b43deaadda7c9876399b2dd8a83ed7d30bf81a26728ffbe50641c5d021",
+          "sha256": "c6c510c704bdffb79f87c748272fce08aea7559f29883528a66bc32d97585f95",
+          "sha1": "c4900dbe5dd7b80b80463d712e04a06603383306",
+          "md5": "d6ea1aba3e8928434f008d88c3d0c8b2"
+        }
+      ]
+    }
+  ]
+}
