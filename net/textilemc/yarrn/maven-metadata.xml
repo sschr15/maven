@@ -3,8 +3,8 @@
   <groupId>net.textilemc</groupId>
   <artifactId>yarrn</artifactId>
   <versioning>
-    <latest>inf-20100618+build20d361</latest>
-    <release>inf-20100618+build20d361</release>
+    <latest>inf-20100618+build21d033</latest>
+    <release>inf-20100618+build21d033</release>
     <versions>
       <version>inf-20100618</version>
       <version>inf-20100618+build20d331</version>
@@ -14,7 +14,8 @@
       <version>inf-20100618+build20d352</version>
       <version>inf-20100618+build20d353</version>
       <version>inf-20100618+build20d361</version>
+      <version>inf-20100618+build21d033</version>
     </versions>
-    <lastUpdated>20201226224818</lastUpdated>
+    <lastUpdated>20210202174154</lastUpdated>
   </versioning>
 </metadata>
