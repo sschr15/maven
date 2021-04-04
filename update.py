@@ -15,12 +15,12 @@ html_template = """
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{0} on concernmaven</title>
+        <title>{1} on concernmaven</title>
     </head>
     <body>
         <h1>Index of {0}</h1>
         <ul>
-            {1}
+            {2}
         </ul>
     </body>
 </html>
@@ -47,7 +47,7 @@ for root, folders, files in os.walk("."):
     with open(root + "/index.html", "w") as file:
         print("Writing index.html to " + root)
         file.write(html_template.format(
-                root,
+                root, root[root.rindex("/")+1:],
                 "\n            ".join([create_element(i) for i in elements])
         ))
 
