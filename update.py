@@ -39,6 +39,8 @@ for root, folders, files in os.walk("."):
     if (root == "."):
         files = []
         root = "./"
+    else:
+        files = [i for i in files if i != "index.html"]
 
     elements = folders + files
     
