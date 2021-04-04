@@ -45,7 +45,7 @@ for root, folders, files in os.walk("."):
     with open(root + "/index.html", "w") as file:
         print("Writing index.html to " + root)
         file.write(html_template.format(
-                root[root.rindex("/")+1:],
+                root,
                 "\n            ".join([create_element(i) for i in elements])
         ))
 
